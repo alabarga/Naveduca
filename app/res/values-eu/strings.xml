@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Naveduca</string>
+    <string name="dummy_button">Ikastetxeen informazioa</string>
+    <string name="dummy_content">NAFARROAKO\nIKASTETXEAK</string>
+    <string name="barra_busqueda">Bilatu ikastetxe edo herriarengatik</string>
+    <string name="nombre">Ikastetxearen izena: </string>
+    <string name="direccion">Helbidea: </string>
+    <string name="cp">Posta kodea: </string>
+    <string name="localidad">Herria: </string>
+    <string name="telefono">Telefonoa: </string>
+    <string name="fax">Faxa: </string>
+    <string name="email">E-maila: </string>
+    <string name="web">Webgunea: </string>
+    <string name="naturaleza">Mota: </string>
+    <string name="info_basica">Oinarrizko datuak</string>
+    <string name="info_adicional">Ikasketa plangintza \neta datu gehiago</string>
+    <string name="localizacion">Kokapen mapa</string>
+    <string name="modelo">Hizkuntz ereduak eta programak:</string>
+    <string name="tipo">Irakaskuntzak:</string>
+    <string name="programas">Programak:</string>
+    <string name="objetivos">Ikasketa helburuak:</string>
+    <string name="sitna">Sitna webgunea:</string>
+    <string name="zona">Eremu linguistikoa:</string>
+    <string name="matriculas">Matrikula kopurua:</string>
+    <string name="servicios">Zerbitzu osagarriak:</string>
+    <string name="atencion">Hezkuntza premia bereziak:</string>
+    <string name="plan">Ikasketa plana:</string>
+    <string name="nodisponible">Ez dago eskaintzerik</string>
+    <string name="tanos">3 urteko postuak:</string>
+    <string name="valores">Ikastetxeko baloreak:</string>
+    <string name="distinciones">Bereizketak:</string>
+    <string name="jornada">Eskola eguna:</string>
+    <string name="proyectos">Proiektuak:</string>
+    <string name="reconocimientos">Aitorpenak:</string>
+    <string name="listadoCentros">Ikastetxeen zerrenda</string>
+    <string name="busquedaDetallada">Ikastetxeko aukeren arabera bilatu</string>
+    <string name="idioma">Hizkuntza</string>
+    <string name="actividad">Bilaketa</string>
+        <string-array name="naturaleza">
+            <item></item>
+        <item>Publikoa</item>
+        <item>Pribatua</item>
+        <item>Itundua</item>
+    </string-array>
+    <string name="title_activity_busqueda_avanzada">Ikastetxeen bilaketa aurreratua</string>
+    <string name="curso">Ikasturtea:</string>
+        <string-array name="curso"> 
+        <item></item>      
+        <item>2015 2016</item>
+        <item>2014 2015</item>
+    </string-array>
+            <string-array name="modelo">
+        <item></item>
+        <item>G eredua (irakaskuntza gaztelaniaz)</item>
+        <item>G eredua PAI Programarekin (ingelesezko murgiltzea)</item>
+        <item>G eredua - British Ikastetxea</item>
+        <item>G eredua Atal Elebidunarekin</item>
+        <item>G eredua Bachibac Programarekin</item>
+        <item>D eredua (irakaskuntza euskeraz gaztelania irakasgai izanik)</item>
+        <item>D eredua PAI Programarekin (ingelesezko murgiltzea)</item>
+        <item>D eredua Atal Elebidunarekin</item>
+        <item>D eredua Bachibac Programarekin</item>
+        <item>B eredua (irakaskuntza euskeraz gaztelania irakasgai izanik eta ikasgai batean)</item>
+        <item>A eredua (irakaskuntza gaztelaniaz euskera irakasgai izanik)</item>
+        <item>A eredua PAI Programarekin (ingelesezko murgiltzea)</item>
+        <item>A eredua - British Ikastetxea</item>
+        <item> A eredua Atal Elebidunarekin</item>
+        <item>A eredua Bachibac Programarekin </item>
+    </string-array>
+                <string-array name="servicios">
+        <item></item>
+        <item>Jantokia</item>
+        <item>Garraioa</item>
+        <item>Eskolaz kanpoko jarduerak</item>
+    </string-array>
+    <string name="nivel">Hezkuntza maila:</string>
+            <string-array name="nivel">
+        <item></item>        
+        <item>Sarrera probak</item>
+        <item>Euskarabidea</item>
+        <item>Haur Hezkuntzako Lehen Zikloa (0 3 urte)</item>
+        <item>Haur Hezkuntza 2. zikl. eta Lehen Hezkuntza (3 12 urte)</item>
+        <item>Derrigorrezko Bigarren Hezkuntza</item>
+        <item>Batxilergoa</item>
+        <item>Lanbide Heziketa - Erdi maila</item>
+        <item>Lanbide Heziketa - Goi maila</item>
+        <item>Hasierako Lanbide Kualifikaziorako Programak</item>
+        <item>Hezkuntza berezia</item>
+        <item>Musika</item>
+        <item>Dantza</item>
+        <item>Arte eskola</item>
+        <item>Hizkuntzak</item>
+        <item>Pertsona Helduen Formakuntza</item>
+        <item>Unidades de Competencia</item>
+    </string-array>
+    
+            <string name="buscar">Bilatu</string>
+            <string name="destino">Aukeratu zer ikastetxera joan nahi duzun</string>
+            <string name="activitycamino">Ezarritako ikastetxerako bidea: bide gorria garraiobideentzako, berdea oinez joateko</string>
+            <string name="ok">Ados</string>
+            <string name="dialog_message">Ezin da internetera konektatu</string>
+    <string name="dialog_title">Porrota internetara konektatzen</string>
+    <string name="select">Hizkuntza aukeratu</string>
+    <string name="dialog_message2">Telefono deia</string>
+    <string name="dialog_title2">¿Ziur zaude Ikastetxera deitu nahi duzula?</string>
+    <string name="cancel">Desados</string>
+    <string name="modo_lista">Zerrenda</string>
+    <string name="modo_mapa">Mapa</string>
+    <string name="title_activity_busqueda_mapa">Bilatzailea Mapa Moduan</string>
+</resources>

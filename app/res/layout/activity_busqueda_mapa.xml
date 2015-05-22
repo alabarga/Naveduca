@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+ <TabHost android:id="@android:id/tabhost"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+ 
+     <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+ 
+         <TabWidget android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@android:id/tabs" />
+ 
+         <FrameLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@android:id/tabcontent" >
+ 
+            <LinearLayout android:id="@+id/tab1"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+ 
+                <TextView android:id="@+id/textView50"
+                      android:text=""
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />
+        </LinearLayout>
+ 
+            <LinearLayout android:id="@+id/tab2"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" >
+ 
+                <TextView android:id="@+id/textView51"
+                      android:text=""
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content" />
+        </LinearLayout>
+
+         </FrameLayout>
+    </LinearLayout>
+</TabHost>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp" />
+
+
+</RelativeLayout>
+<!-- </ScrollView> -->
+
+
+

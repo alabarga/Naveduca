@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nav.naveduca.IdiomaActivity"
+    tools:ignore="MergeRootFrame" >
+    
+    
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Español"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold" />
+    
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="180dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView1"
+        android:src="@drawable/espana" />
+        
+                <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Euskera"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="45dp"
+        android:textStyle="bold" />
+        
+            <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="180dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView2"
+        android:src="@drawable/ikurrinab" />
+
+
+</RelativeLayout>
